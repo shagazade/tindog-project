@@ -1,0 +1,280 @@
+/* General Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat', sans-serif;
+
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+/* Headings  */
+
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    animation: drop 1.5s ease;
+}
+
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 18px;
+    transition: 1.5s ease;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+    transition: 0.5s ease;
+    ]
+}
+
+.form-inline {
+    padding: 3%;
+    color: yellow;
+}
+
+.btn-search {
+    border: none;
+    color: #fff;
+}
+
+.btn-search:hover {
+    background-color: #333333;
+}
+
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    filter: drop-shadow(0px 5px 3px black);
+    animation: drop 1.5s ease;
+}
+
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fcf7f7;
+    position: relative;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.features-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+    color: #ff4c68;
+    transition: all .2s;
+}
+
+
+/* Testimonial section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-text {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/* Press Section  */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section  */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+    background-color: #fcf7f7;
+}
+
+.price-text {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.btn-signup {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.btn-signup:hover {
+    background-color: #f71c3d;
+}
+
+.btn-free {
+    border-color: #ff4c68;
+    color: #ff4c68;
+}
+
+.btn-free:hover {
+    background-color: #ff4c68;
+    color: white;
+    transition: all .3s;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+/* CTA  */
+
+#cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+
+/* Footer  */
+
+.contact {
+    text-decoration: none;
+    color: ;
+}
+
+.contact:hover {
+    text-decoration: none;
+    color: #730517;
+}
+
+.text-muted {
+    font-size: 15px;
+}
+
+.soc:hover {
+    text-decoration: none;
+}
+
+.social-icon {
+    padding-top: 10px;
+    padding-right: 4px;
+}
+
+.soc-icon {
+    color: black;
+}
+
+.soc-icon:hover {
+    color: #b693cc;
+}
+
+.soc {
+    color: #727ab0;
+}
+
+.soc:hover {
+    color: #111633;
+}
